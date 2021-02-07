@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Profile-Pemilwa Sistem Informasi</title>
+    <!-- Bootstrap CSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <!-- VENDOR CSS -->
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/vendor/linearicons/style.css">
+    <link rel="stylesheet" href="assets/vendor/chartist/css/chartist-custom.css"> 
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="assets/css/home.css">
+    <!-- ADD CSS -->
+    <link rel="stylesheet" href="assets/css/profile.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <style>
+        /*NAVBAR*/
+        .container-navbar {
+            margin-top: 30px;
+            max-width: 81rem;
+        }
+        .nav-link{
+            margin-left: 40px;
+            border-radius: 25px;
+        }
+        .active a {
+            background-color: #B0D2F2;
+        }
+    </style>
+
+    <!-- Bckground -->
+    <div class="container-fluid px-0" style="position: fixed; z-index: -1;">
+        <img src="assets/img/bg-profile-100op.png" style="max-height: 700px; width: 800px; position: absolute; opacity: 0.3;">
+        <img src="assets/img/bg-profile-100op.png" style="max-height: 700px; width: 800px; position: absolute; opacity: 0.3; transform: rotate(180deg); right: 0;">
+    </div>
+
+    <!--       navbar          -->
+    <nav class="navbar-custom navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo 1.png" width="68" height="68" class="d-inline-block align-top" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-sm-0 nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Profile Calon</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Vote</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--      Profile kemsi wakemsi      -->
+    <div class="container profileEMSI text-center">
+        <h2 class="">Calon Ketua dan Wakil Ketua EMSI</h1>
+            <div class="row">
+                <div class="grid-calon col-md">                  
+                    <img src="assets/img/calon-ardi.png" alt="" class="foto-calon">       
+                    <button class="btn btn-profile" data-toggle="modal" data-target="#popup-ardi">
+                        <h4>Ardiansyah Fajar Ramadhan</h4>
+                        <p>#OptimalisaSIPerubahan</p>
+                    </button>
+                </div>
+                <div class="grid-calon col-md">                   
+                    <img src="assets/img/calon-alifdaffa.png" alt="">           
+                    <button href="#" class="btn btn-profile" data-toggle="modal" data-target="#popup-aldap">
+                        <h4>Alifdaffa Nurfahmi Dekatama</h4>
+                        <p>#OptimalisaSIPerubahan</p>
+                    </button>
+                </div>
+            </div>
+    </div>
+
+
+    <!--      Profile BPMSI      -->
+    <div class="container profileBPMSI text-center">
+        <h2 class="">Calon BPMSI</h1>
+            <div class="row">
+                <div class="grid-calon col-md">
+                    <img src="assets/img/calon-jessica.png" alt="">
+                    <button class="btn btn-profile" data-toggle="modal" data-target="#jessica">
+                        <div class="row">
+                           <div class="col-sm-1"></div>
+                            <div class="col-sm-1">
+                                <h1>1.</h1>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Jessica Ayu Trinovianti</h4>
+                            </div>
+                        </div>
+                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
+                    </button>
+                </div>
+                <div class="grid-calon col-md-4 col-sm-12">
+                    <img src="assets/img/calon-rahma.png" alt="">
+                    <button class="btn btn-profile" data-toggle="modal" data-target="#rahma">
+                        <div class="row">
+                            <div class="col-sm-1"></div>
+                            <div class="col-sm-1">
+                                <h1>2.</h1>
+                            </div>
+                            <div class="col-sm-9">
+                                <h4>Rahma 
+                                Himastuti</h4>
+                            </div>
+                        </div>
+                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
+                    </button>
+                </div>
+                <div class="grid-calon col-md-4 col-sm-12">
+                    <img src="" alt="">
+                    <button href="#" class="btn btn-profile">
+                        <h4></h4>
+                        <p></p>
+                    </button>
+                </div>
+            </div>
+    </div>
+
+    <!-- Modal / Pop Up -->
+    <!-- Ardi -->
+    <div class="modal fade" id="popup-ardi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="assets/img/pop-up_ardi.png" style="width: 100%; position: relative;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- Aldap -->
+    <div class="modal fade" id="popup-aldap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="assets/img/pop-up_aldap.png" style="width: 100%; position: relative;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- Jessica -->
+    <div class="modal fade" id="jessica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="assets/img/pop-up_jessica.png" style="width: 100%; position: relative;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- Rahma -->
+    <div class="modal fade" id="rahma" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="assets/img/pop-up_rahma.png" style="width: 100%; position: relative;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>
