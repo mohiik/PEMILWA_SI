@@ -9,7 +9,7 @@ Uncomplete :
 - Responsive website (Completed)
 
 UPDATE (17 feb, 19:30):
-penambahan halaman terima kasih
-penambahan media query di halaman home, profile, vote-emsi, vote-bpmsi
-sedikit revisi di navbar, halaman profile(html & css), vote-emsi(html & css)
+- penambahan halaman terima kasih
+- penambahan media query di halaman home, profile, vote-emsi, vote-bpmsi
+- sedikit revisi di navbar, halaman profile(html & css), vote-emsi(html & css)
 
