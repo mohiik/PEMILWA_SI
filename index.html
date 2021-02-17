@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Home-Pemilwa Sistem Informasi</title>
     <!-- VENDOR CSS -->
 	<link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.min.css">
@@ -23,11 +23,34 @@
             max-width: 81rem;
         }
         .nav-link{
+            display: inline-block;
             margin-left: 40px;
             border-radius: 25px;
         }
         .active a {
             background-color: #B0D2F2;
+        }
+
+        @media only screen and (max-width: 990px){
+        /*navbar*/
+        .navbar-collapse{
+            background-color: #F2EEEE;
+            }
+        .active a {
+            background-color: #B0D2F2;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+        /*konten*/
+        .hero {
+            background-position: left top;
+            background-size: 620px 350px;
+            
+            }
+        .hero>.head>.container>.header {
+            padding-top: 330px;
+            }
         }
     </style>
 
