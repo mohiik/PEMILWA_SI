@@ -31,16 +31,27 @@
             max-width: 81rem;
         }
         .nav-link{
+            display: inline-block;
             margin-left: 40px;
             border-radius: 25px;
         }
         .active a {
             background-color: #B0D2F2;
         }
+
+        @media only screen and (max-width: 990px){
+        /*navbar*/
+        .navbar-collapse{
+            background-color: #F2EEEE;
+            }
+        .active a {
+            background-color: #B0D2F2;
+            }
+        }
     </style>
 
     <!-- Bckground -->
-    <div class="container-fluid px-0" style="position: fixed; z-index: -1;">
+    <div class="container-fluid bg-profile px-0" style="position: fixed; z-index: -1;">
         <img src="assets/img/bg-profile-100op.png" style="max-height: 700px; width: 800px; position: absolute; opacity: 0.3;">
         <img src="assets/img/bg-profile-100op.png" style="max-height: 700px; width: 800px; position: absolute; opacity: 0.3; transform: rotate(180deg); right: 0;">
     </div>
@@ -74,8 +85,8 @@
     <div class="container profileEMSI text-center">
         <h2 class="">Calon Ketua dan Wakil Ketua EMSI</h1>
             <div class="row">
-                <div class="grid-calon col-md">                  
-                    <img src="assets/img/calon-ardi.png" alt="" class="foto-calon">       
+                <div class="grid-calon col-md">                 
+                    <img src="assets/img/calon-ardi.png" alt="" >       
                     <button class="btn btn-profile" data-toggle="modal" data-target="#popup-ardi">
                         <h4>Ardiansyah Fajar Ramadhan</h4>
                         <p>#OptimalisaSIPerubahan</p>
@@ -96,43 +107,56 @@
     <div class="container profileBPMSI text-center">
         <h2 class="">Calon BPMSI</h1>
             <div class="row">
-                <div class="grid-calon col-md">
+                <div class="grid-calon col-md-6 col-lg-4">
                     <img src="assets/img/calon-jessica.png" alt="">
-                    <button class="btn btn-profile" data-toggle="modal" data-target="#jessica">
-                        <div class="row">
-                           <div class="col-sm-1"></div>
-                            <div class="col-sm-1">
-                                <h1>1.</h1>
-                            </div>
-                            <div class="col-sm-9">
-                                <h4>Jessica Ayu Trinovianti</h4>
-                            </div>
-                        </div>
-                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
-                    </button>
-                </div>
-                <div class="grid-calon col-md-4 col-sm-12">
-                    <img src="assets/img/calon-rahma.png" alt="">
-                    <button class="btn btn-profile" data-toggle="modal" data-target="#rahma">
-                        <div class="row">
-                            <div class="col-sm-1"></div>
-                            <div class="col-sm-1">
-                                <h1>2.</h1>
-                            </div>
-                            <div class="col-sm-9">
-                                <h4>Rahma 
-                                Himastuti</h4>
-                            </div>
-                        </div>
-                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
-                    </button>
-                </div>
-                <div class="grid-calon col-md-4 col-sm-12">
-                    <img src="" alt="">
                     <button href="#" class="btn btn-profile">
-                        <h4></h4>
-                        <p></p>
+                        <table>
+                        <tr>
+                            <th><h1>1.</h1></th>
+                            <th><h4>Jessica Ayu Trinovianti</h4></th>
+                        </tr>                
+                        </table>
+                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
                     </button>
+                </div>
+                <div class="grid-calon col-md-6 col-lg-4">
+                    <img src="assets/img/calon-rahma.png" alt="">
+                    <button href="#" class="btn btn-profile">
+                        <table>
+                            <tr>
+                                <th><h1>2.</h1></th>
+                                <th><h4>Rahma 
+                                    Himastuti</h4></th>
+                            </tr>                
+                        </table>
+                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
+                    </button>
+                </div>
+                <div class="grid-calon col-md-6 col-lg-4">
+                    <img src="assets/img/calon-jessica.png" alt="">
+                    <button href="#" class="btn btn-profile" data-toggle="modal" data-target="#jessica">
+                        <table>
+                        <tr>
+                            <th><h1>1.</h1></th>
+                            <th><h4>Jessica Ayu Trinovianti</h4></th>
+                        </tr>                
+                        </table>
+                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
+                    </button>
+                </div>
+                <div class="grid-calon col-md-6 col-lg-4">
+                    <img src="assets/img/calon-rahma.png" alt="">
+                    <button href="#" class="btn btn-profile" data-toggle="modal" data-target="#rahma">
+                        <table>
+                            <tr>
+                                <th><h1>2.</h1></th>
+                                <th><h4>Rahma 
+                                    Himastuti</h4></th>
+                            </tr>                
+                        </table>
+                        <p class="tagline">#Kami ada, kami siap, kami laksanakan!</p>
+                    </button>
+                </div>
                 </div>
             </div>
     </div>
@@ -144,6 +168,19 @@
     <div class="modal-content">
       <div class="modal-body text-center">
         <img src="assets/img/pop-up_ardi.png" style="width: 100%; position: relative;">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+    </div>
+    </div>
+    <!-- Aldap -->
+    <div class="modal fade" id="popup-aldap" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-body text-center">
+        <img src="assets/img/pop-up_aldap.png" style="width: 100%; position: relative;">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
