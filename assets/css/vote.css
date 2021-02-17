@@ -6,6 +6,7 @@ body {
 }
 .card-emsi {
 	position: relative;
+	width: 25rem;
 	height: 406px;
 	border-width: 0px;
 	background-color: rgba(0, 0, 0, 0.0);
@@ -42,4 +43,15 @@ body {
 }
 .modal-footer button:hover {
 	color: black;
+}
+
+@media only screen and (max-width: 600px){
+	.card-emsi {
+		width: 19rem;
+		height: 320px;
+	}
+	.card-bpmsi {
+		width: 10rem;
+		height: 350px;
+	}
 }
